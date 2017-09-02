@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    background-image: url("../images/turntable-corner-bkgd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px #0076ff;
+    position: relative;
+    z-index: 0;
+    line-height: 80px;
+    margin-right: 150px;
+}
+
+h2 {
+    font-family: 'Caveat';
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px #ff0000;
+    position: relative;
+    z-index: 1;
+    line-height: 1px;
+}
+
+#mainContainer {
+    margin-top: 50px;
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textContainer {
+    font-family: 'Yantramanav';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 19px;
+    text-shadow: 1px 1px 3px #1f1f1f;
+    background-color: dimgrey;
+    padding: 8px 15px 15px 15px;
+    width: 270px;
+    height: 282px;
+    float: right;
+    border-style: solid;
+    border-color: rgb(101, 149, 255);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.allCaps {
+    font-family: 'Caveat';
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+#imgContainer {
+    border-radius: 10px;
+    width: 300px;
+    height: 306px;
+    background-image: url("../images/hang-drawing-0.png");
+    float: left;
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    border-color: rgb(101, 149, 255);
+    border-width: 2px;
+}
+
+#blackBox {
+    border-radius: 10px;
+    width: 300px;
+    height: 306px;
+    background-color: black;
+    float: left;
+    position: absolute;
+    z-index: 0;
+}

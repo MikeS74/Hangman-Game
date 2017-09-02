@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DJ Hangman</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Yantramanav' rel='stylesheet'>
+</head>
+
+<body>
+    <h1>DJ</h1>
+    <h2>HANGMAN</h2>
+    <div id="mainContainer">
+        <div id="blackBox"> </div>
+        <div id="imgContainer"> </div>
+        <div id="textContainer">
+            <p>Press any letter to get started guessing a musical artist.</p>
+            <br>
+            <p>Each incorrect guess will draw part of the Hangman.</p>
+            <hr>
+            <div>
+                <p>Wins:</p>
+            </div>
+            <div id="winsDisplay">
+                <p>0</p>
+            </div>
+            <br>
+            <div id="hangGame">
+                <p>Current Word:</p>
+                <p class="allCaps">_ _ _ _ _ _ _</p>
+                <br>
+                <p>Letters already guessed:</p>
+                <p class="allCaps"></p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game2a.js"></script>
+</body>
